@@ -11,12 +11,30 @@
 $navbar-nav-link-padding-x : 1.5rem;
 $success : rgba(26, 137, 23, 1);
 $font-family-sans-serif : 'Montserrat', sans-serif;
-$nav-link-font-size : 0.8rem;
+$nav-link-font-size : 0.6rem;
 $nav-link-font-weight : 600;
+$input-font-size : 0.7rem;
+$font-size-base : 0.7rem;
+
 
 
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-
+// CSS Customize
+.tag-logo{
+    height: 30px;
+    width: 30px;
+    line-height: normal;
+    transform: rotate(85deg);
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
