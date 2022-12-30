@@ -9,12 +9,13 @@
 //bootstrap_customize
 
 $navbar-nav-link-padding-x : 1.5rem;
-$success : rgba(26, 137, 23, 1);
+$success : rgba(26, 137, 23);
 $font-family-sans-serif : 'Montserrat', sans-serif;
 $nav-link-font-size : 0.6rem;
 $nav-link-font-weight : 600;
 $input-font-size : 0.7rem;
 $font-size-base : 0.7rem;
+$light : #f8f9fa;
 
 
 
@@ -37,4 +38,13 @@ a{
 a:hover{
     text-decoration: none;
     color: #000000;
+}
+.user-seem{
+    margin-left: -8px;
+}
+.writer-info{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
